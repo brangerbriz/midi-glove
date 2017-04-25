@@ -1,0 +1,4 @@
+jupyter==1.0.0
+ipykernel==4.6.1
+pretty-midi==0.2.7
+numpy==1.12.1
