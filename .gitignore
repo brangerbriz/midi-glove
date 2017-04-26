@@ -1,4 +1,5 @@
 .ipynb_checkpoints
 data/*
 !data/.gitkeep
+!data/pre-trained-embeddings
 venv
