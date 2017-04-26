@@ -1,6 +1,6 @@
 # MIDI GloVe
 
-Create [GloVe](https://nlp.stanford.edu/projects/glove/) embeddings from monophonic MIDI tracks. You can make your own embeddings or use our [pre-trained embeddings](data/embeddings) created from 263,438 monophonic MIDI tracks from the [Lakh MIDI Dataset](http://colinraffel.com/projects/lmd/). You can download the files we used to create our pre-trained embeddings [here](https://github.com/brangerbriz/t-SNEPointSelector/releases/download/data/lmd_mono_tracks_seperated.tar.gz).
+Create [GloVe](https://nlp.stanford.edu/projects/glove/) embeddings from monophonic MIDI tracks. You can make your own embeddings or use our [pre-trained embeddings](data/embeddings) created from 263,438 monophonic MIDI tracks from the [Lakh MIDI Dataset](http://colinraffel.com/projects/lmd/). You can download the files we used to create our pre-trained embeddings [here](https://github.com/brangerbriz/t-SNEPointSelector/releases/download/data/lmd_mono_tracks_seperated.tar.gz) (139MB).
 
 ## Pre-trained Embeddings
 
@@ -30,14 +30,14 @@ cd midi-glove
 
 # initialize and clone the GloVe repo
 git submodule init
-git update
+git submodule update
 
 # build GloVe
-cd GloVe/glove
+cd GloVe
 make
 
 # return to midi-glove project root
-cd ../..
+cd ../
 pip install -r requirements.txt
 ```
 
